@@ -1,0 +1,39 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    background: white;
+    table-layout:fixed;
+    min-width: 450px;
+}
+
+    table th, table td {
+        border: 1px solid #ddd;
+        padding: 12px 8px;
+        text-align: left;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
+    }
+
+    table th {
+        background-color: black; 
+        color: white;
+        font-size: 0.85rem;
+    }
+
+    
+    table tr:nth-child(even) {
+        background-color: #f9f9f9; 
+    }
+
+   
+    table tr:hover {
+        background-color: lightcoral;
+        transition: 0.3s;
+    }
+section {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+}
